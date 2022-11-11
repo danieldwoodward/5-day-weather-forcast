@@ -1,0 +1,44 @@
+header{
+    box-shadow: inset 3em 0 50px rgba(255, 255, 255, 0.2);
+    
+}
+
+h1{
+    font-size: 200%;
+    margin-left: 20%;
+}
+
+input{
+    font-size: larger;
+    border-radius: 5px;
+}
+
+hr{
+    border: 3px solid black;
+}
+
+#test{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#padding {
+    margin: 10px  0;
+}
+
+#box {
+    
+    border-style: solid;
+    padding: 20px;
+    margin: 2%;
+}
+
+#hr2{
+    border: 2px solid darkblue;
+}
+
+.card {
+    padding: 20px;
+    margin: 1%;
+}

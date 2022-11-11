@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/1style.css" />
+  </head>
+  <body>
+    <header class="p-5 text-center text-white bg-primary">
+      <h1>Weather Dashboard</h1>
+    </header>
+    <main class="flex-row min-100-vh bg-light">
+      <aside class="col-sm-12 col-md-4 col-lg-3">
+        <form action="">
+          <h2>Search for City</h2>
+          <input
+            class="col-12 my-5 p-3"
+            type="text"
+            id="city-input"
+            name="city"
+            placeholder="Select City"
+          />
+          <br />
+          <button id= submitButton class="btn btn-lg col-12 bg-link" type="submit">submit</button>
+        </form>
+        <hr />
+        <div id="test">
+          <button id="padding" class="btn btn-lg col-12 mt-1">Atlanta</button>
+          <button id="padding" class="btn btn-lg col-12 mt-1">Denver</button>
+          <button id="padding" class="btn btn-lg col-12 mt-1">Seattle</button>
+          <button id="padding" class="btn btn-lg col-12 mt-1">San Francisco</button>
+          <button id="padding" class="btn btn-lg col-12 mt-1">Orlando</button>
+          <button id="padding" class="btn btn-lg col-12 mt-1">New York</button>
+          <button id="padding" class="btn btn-lg col-12 mt-1">Chicago</button>
+          <button id="padding" class="btn btn-lg col-12 mt-1">Austin</button>
+        </div>
+      </aside>
+
+      <section class="colum-sm-12 col-md-8 col-lg-9">
+
+        <div id="box">
+          <h2>Todays Forecast:</h2>
+          <p>Temp: <span id="temp"></span></p>
+          <p>Wind <span id="wind"></span></p>
+          <p>Humidity <span id="humid"></span></p>
+        </div>
+
+        <div>
+          <h3>5-day Forecast:</h3>
+        </div>
+
+        <hr id="hr2">
+
+        <div class="row">
+          <div class="card col-2 bg-primary">
+            <h4 id="date1"></h4>
+            <p id="emoji1"></p>
+            <p id="tempD1"></p>
+            <p id="humidity1"></p>
+          </div>
+
+          <div class="card col-2 bg-primary">
+            <h4 id="date2"></h4>
+            <p id="emoji2"></p>
+            <p id="tempD2"></p>
+            <p id="humidity2"></p>
+          </div>
+
+          <div class="card col-2 bg-primary">
+            <h4 id="date3"></h4>
+            <p id="emoji3"></p>
+            <p id="tempD3"></p>
+            <p id="humidity3"></p>
+          </div>
+
+          <div class="card col-2 bg-primary">
+            <h4 id="date4"></h4>
+            <p id="emoji4"></p>
+            <p id="tempD4"></p>
+            <p id="humidity4"></p>
+          </div>
+
+          <div class="card col-2 bg-primary">
+            <h4 id="date5"></h4>
+            <p id="emoji5"></p>
+            <p id="tempD5"></p>
+            <p id="humidity5"></p>
+          </div>
+
+
+        </div>
+      </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
