@@ -12,7 +12,7 @@
     <header class="p-5 text-center text-white bg-primary">
       <h1>Weather Dashboard</h1>
     </header>
-    <main class="flex-row min-100-vh bg-light">
+    <main class="container-fluid row min-100-vh bg-light">
       <aside class="col-sm-12 col-md-4 col-lg-3">
         <form action="">
           <h2>Search for City</h2>
@@ -27,16 +27,7 @@
           <button id= submitButton class="btn btn-lg col-12 bg-link" type="submit">submit</button>
         </form>
         <hr />
-        <div id="test">
-          <button id="padding" class="btn btn-lg col-12 mt-1">Atlanta</button>
-          <button id="padding" class="btn btn-lg col-12 mt-1">Denver</button>
-          <button id="padding" class="btn btn-lg col-12 mt-1">Seattle</button>
-          <button id="padding" class="btn btn-lg col-12 mt-1">San Francisco</button>
-          <button id="padding" class="btn btn-lg col-12 mt-1">Orlando</button>
-          <button id="padding" class="btn btn-lg col-12 mt-1">New York</button>
-          <button id="padding" class="btn btn-lg col-12 mt-1">Chicago</button>
-          <button id="padding" class="btn btn-lg col-12 mt-1">Austin</button>
-        </div>
+        <ul id="buttonMemory"></ul>
       </aside>
 
       <section class="colum-sm-12 col-md-8 col-lg-9">
@@ -44,8 +35,8 @@
         <div id="box">
           <h2>Todays Forecast:</h2>
           <p>Temp: <span id="temp"></span></p>
-          <p>Wind <span id="wind"></span></p>
-          <p>Humidity <span id="humid"></span></p>
+          <p>Wind: <span id="wind"></span></p>
+          <p>Humidity: <span id="humid"></span></p>
         </div>
 
         <div>
@@ -94,7 +85,7 @@
         </div>
       </section>
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./assets/script.js"></script>
   </body>
 </html>
