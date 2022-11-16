@@ -42,3 +42,17 @@ hr{
     padding: 20px;
     margin: 1%;
 }
+
+h6{
+    color: white;
+}
+
+p{
+    color: white;
+    font-size: 75%;
+}
+
+.todayP{
+    color: black;
+    font-size: 150%;
+}

@@ -24,68 +24,81 @@
             placeholder="Select City"
           />
           <br />
-          <button id= submitButton class="btn btn-lg col-12 bg-link" type="submit">submit</button>
+          <button
+            id="submitButton"
+            class="btn btn-lg col-12 bg-link"
+            type="submit"
+          >
+            submit
+          </button>
         </form>
         <hr />
         <ul id="buttonMemory"></ul>
       </aside>
 
       <section class="colum-sm-12 col-md-8 col-lg-9">
-
         <div id="box">
           <h2>Todays Forecast:</h2>
-          <p>Temp: <span id="temp"></span></p>
-          <p>Wind: <span id="wind"></span></p>
-          <p>Humidity: <span id="humid"></span></p>
+          <p class="todayP">Temp: <span id="temp"></span></p>
+          <p class="todayP">Wind: <span id="wind"></span></p>
+          <p class="todayP">Humidity: <span id="humid"></span></p>
         </div>
 
         <div>
           <h3>5-day Forecast:</h3>
         </div>
 
-        <hr id="hr2">
+        <hr id="hr2" />
 
         <div class="row">
           <div class="card col-2 bg-primary">
-            <h4 id="date1"></h4>
-            <p id="emoji1"></p>
+            <h6 id="date1"></h6>
+            <img id="emoji1" src="">
             <p id="tempD1"></p>
+            <p id="windD1"></p>
             <p id="humidity1"></p>
           </div>
 
           <div class="card col-2 bg-primary">
-            <h4 id="date2"></h4>
+            <h6 id="date2"></h6>
             <p id="emoji2"></p>
             <p id="tempD2"></p>
+            <p id="windD2"></p>
             <p id="humidity2"></p>
           </div>
 
           <div class="card col-2 bg-primary">
-            <h4 id="date3"></h4>
+            <h6 id="date3"></h6>
             <p id="emoji3"></p>
             <p id="tempD3"></p>
+            <p id="windD3"></p>
             <p id="humidity3"></p>
           </div>
 
           <div class="card col-2 bg-primary">
-            <h4 id="date4"></h4>
+            <h6 id="date4"></h6>
             <p id="emoji4"></p>
             <p id="tempD4"></p>
+            <p id="windD4"></p>
             <p id="humidity4"></p>
           </div>
 
           <div class="card col-2 bg-primary">
-            <h4 id="date5"></h4>
+            <h6 id="date5"></h6>
             <p id="emoji5"></p>
             <p id="tempD5"></p>
+            <p id="windD5"></p>
             <p id="humidity5"></p>
           </div>
-
-
         </div>
       </section>
     </main>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"
+      integrity="sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="./assets/script.js"></script>
   </body>
 </html>
